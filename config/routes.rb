@@ -1,5 +1,11 @@
 Rails.application.routes.draw do
 
+  get 'vaani/name'
+
+  get 'vaani/email'
+
+  get 'vaani/password'
+
   resources :products
 
 namespace :api do 
