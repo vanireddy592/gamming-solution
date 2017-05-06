@@ -1,0 +1,2 @@
+class Vanidb < ApplicationRecord
+end
